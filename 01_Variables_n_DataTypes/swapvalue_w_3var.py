@@ -1,0 +1,8 @@
+num1 = input ( 'Enter the 1st number :' )
+num2 = input ( 'Enter the 2nd number :' )
+print (f"Bucket no. 1 - {num1} , Bucket no. 2 - {num2} ")
+print ("swapping numbers...")
+swap = int ( num1 ) + int ( num2 )
+num2 = swap - int ( num2 )
+num1 = swap - int ( num1 )
+print (f"Bucket no. 1 - {num1} , Bucket no. 2 - {num2} ")

@@ -1,0 +1,5 @@
+num1 = input ( "Enter 1st number to calculate the average : ")
+num2 = input ( "Enter 2nd number to calculate the average : ")
+num3 = input ( "Enter 3rd number to calculate the average : ")
+avg = round( (int ( num1 ) + int ( num2 ) + int ( num3 )) / 3 , 2 )
+print (f"The average of the 3 numbers is  : {avg}")
