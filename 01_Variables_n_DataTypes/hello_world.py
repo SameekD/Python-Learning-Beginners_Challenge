@@ -13,3 +13,25 @@ price = 100.50
 print ( price * tax )
 print( price + price * tax )
 print ( round( price * tax, 2 ) )
+print("""\
+Usage: thingy [OPTIONS]
+     -h                        Display this usage message
+     -H hostname               Hostname to connect to
+""")
+text = ( "Put several strings within parentheses "
+        ' to have them joined together.')
+print( text )
+squares = [1, 4, 9, 16, 25]
+print ( squares )
+print ( squares [2] )
+cubes = [1, 8, 27, 65, 125]
+print ( cubes )
+print ( cubes [3] )
+print ( cubes [-3] )
+cubes.append(216)  
+cubes.append(7 ** 3)  
+print ( cubes )
+print ( cubes [2:5] )
+print ( len( cubes  ) )
+country = input( "Enter a country name :" )
+print( "You entered country name : " + country )
