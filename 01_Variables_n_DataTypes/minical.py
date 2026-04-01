@@ -1,5 +1,14 @@
-num1 = input ( 'Enter a number :')
-num2 = input ( 'Enter another number :')
+num1 = int(input ( 'Enter a number :'))
+num2 = int(input ( 'Enter another number :'))
 opt = input ( 'Chose the operation ( + , - , * , /) :')
-result = int ( num1 ) + opt + int ( num2 )
+if opt == "+" :
+    result = num1 + num2 
+elif opt == "-" :
+    result = num1 - num2
+elif opt == "*" :
+    result = num1 * num2
+elif opt == "/" :
+    result = num1 + num2
+else :
+    result = "You did not select correct opperation"
 print ( f"{result}" )
